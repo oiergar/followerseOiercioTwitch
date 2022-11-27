@@ -1,0 +1,80 @@
+
+html, body{
+    height:100%;
+}
+body{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    background-image: radial-gradient(circle at -20.44% 56.16%, #ff7b8f 0, #ff6d9f 8.33%, #ff61ab 16.67%, #ff55b4 25%, #ff4cb9 33.33%, #ff43b9 41.67%, #f23cb5 50%, #ce36ae 58.33%, #ac34a7 66.67%, #8e32a1 75%, #72329c 83.33%, #563397 91.67%, #393495 100%);    margin: 0;
+    padding: 0;
+}
+.followers{
+    background-color: #E1D1D1;
+    width: 50%;
+    height:900px;
+    margin: 10px;
+    margin-top: 175px;
+    opacity: 80%;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+}
+.subs{
+    background-color: #EDB3EE;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+    margin: 10px;
+    margin-left: 0px;
+    margin-top: 175px;
+    opacity: 85%;
+    border-radius: 10px;
+}
+.follower{
+    background-color: #BFC1F5;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    font-family: monospace;
+    text-align: center;
+}
+.sub{
+    background-color: #F0D6A7;
+    margin: 10px;
+    padding: 4px 20px;
+    text-align: center;
+    border-radius: 10px;
+    justify-content: stretch;
+    font-family: monospace;
+}
+.titulo1{
+    width: 50%;
+    left: 20px;
+    position:absolute;
+    display: flex;
+    bottom: 850px;
+    float: left;
+    text-align: center;
+    flex-direction: column;
+    font-family: monospace;
+    font-size: 20px;
+    top: 2px;
+}
+.titulo2{
+    width: 50%;
+    right: 10px;
+    position: absolute;
+    top: 2px;
+    display: flex;
+    bottom: 850px;
+    float: right;
+    text-align: center;
+    flex-direction: column;
+    font-family: monospace;
+    font-size: 20px;
+}
